@@ -12,8 +12,7 @@ import java.util.List;
 @Repository
 public interface EpisodeRepository extends BaseEntityRepository {
 
-//    @Query("SELECT title FROM EPISODE")
-//    List<Episode> getAllEpisodeTitles();
-//
-//    List<Episode> findByTitle(String title);
+
+
+
 }

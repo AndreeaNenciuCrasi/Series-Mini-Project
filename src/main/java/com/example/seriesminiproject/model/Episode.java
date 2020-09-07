@@ -14,6 +14,7 @@ public class Episode extends BaseEntity{
     @JoinColumn(name = "season_id")
     private Season season;
 
+
     public Episode( String title, Integer duration) {
         super( title);
         this.duration = duration;
